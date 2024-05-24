@@ -19,4 +19,4 @@ Exploit a Windows machine in this beginner level challenge
 
 7. We've actually just got our first password: `UmbracoIsTheBest!`. We can visit the /umbraco page, as it seems like a potential login page, even if we can't exploit it just yet. When we visit it, it'll give us this:
 
-![]()
+![Website](./images/anthem4.png)
