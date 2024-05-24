@@ -15,4 +15,8 @@ Exploit a Windows machine in this beginner level challenge
 
 6. We can immediately check if the default `robots.txt` file exists on the webserver, by inserting `robots.txt` at the end of the link, which gives us this:
 
+![Website](./images/anthem3.png "robots.txt")
+
+7. We've actually just got our first password: `UmbracoIsTheBest!`. We can visit the /umbraco page, as it seems like a potential login page, even if we can't exploit it just yet. When we visit it, it'll give us this:
+
 ![]()
