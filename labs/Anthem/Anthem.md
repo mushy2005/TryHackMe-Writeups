@@ -11,5 +11,8 @@ Exploit a Windows machine in this beginner level challenge
 4. Next question: "What port is for remote desktop service?" This would be port 3389, as that's the RDP port.
 5. When we access the site, it'll look something like this:
 
-![]()
+![Website](./images/anthem2.png "Anthem Website") <br>
 
+6. We can immediately check if the default `robots.txt` file exists on the webserver, by inserting `robots.txt` at the end of the link, which gives us this:
+
+![]()
