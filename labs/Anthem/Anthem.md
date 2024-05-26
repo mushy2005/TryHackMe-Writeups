@@ -32,3 +32,7 @@ Exploit a Windows machine in this beginner level challenge.
 10. When we try clicking on Jane Doe, we get another flag (flag 3: THM{L0L_WH0_D15}):
 
 ![Website](./images/anthem7.png)
+
+11. Going back to the homepage and clicking on the second article, which is, "A cheers to our IT department," appears to be a poem. The author for this article is James Orchard Halliwell.
+
+![Website]()
