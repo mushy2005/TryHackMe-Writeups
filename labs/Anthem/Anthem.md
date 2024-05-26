@@ -21,5 +21,10 @@ Exploit a Windows machine in this beginner level challenge
 
 ![Website](./images/anthem4.png)
 
-8. Before anything else, we need to check the page source, just in case if there's any information we can use on there. Opening it up and scrolling down just a bit, we already found flag 2 (THM{G!T_G00D}):  
+8. Before anything else, we need to check the page source, just in case if there's any information we can use on there. Opening it up and scrolling down just a bit, we already found flag 2 (THM{G!T_G00D}):
+
+![Website](./images/anthem5.png)
+
+9. Going back to the homepage and clicking on the first article, which is called, "We are hiring," we can see two important points-of-interest. One is the email (JD@anthem.com) and the other is the actual author of the article: Jane Doe
+
 ![Website]()
