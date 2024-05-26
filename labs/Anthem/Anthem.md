@@ -39,4 +39,10 @@ Exploit a Windows machine in this beginner level challenge.
 
 ![Website](./images/anthem8.png)
 
-12. This portion is quite clever. Since it seems like they've dedicated this poem to the admin, the admin's name could be the actual author who wrote this poem. A simple google search tells us that the poem is written by Solomon Grundy 
+12. This portion is quite clever. Since it seems like they've dedicated this poem to the admin, the admin's name could be the actual author who wrote this poem. A simple google search tells us that the poem is written by Solomon Grundy.
+
+![Solomon](./images/anthem10.png)
+
+13. Now we can answer the following question: "What's the name of the Administrator?" Which is, Solomon Grundy.
+14. We can perform a directory scan using Gobuster to see what other info we can access:
+
