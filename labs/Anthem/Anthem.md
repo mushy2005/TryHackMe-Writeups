@@ -1,5 +1,5 @@
 # Anthem
-Exploit a Windows machine in this beginner level challenge
+Exploit a Windows machine in this beginner level challenge.
 
 ## Steps
 1. First and foremost, we need to spin up the target machine. Do take note of the IP address as that'll be useful.
@@ -25,6 +25,10 @@ Exploit a Windows machine in this beginner level challenge
 
 ![Website](./images/anthem5.png)
 
-9. Going back to the homepage and clicking on the first article, which is called, "We are hiring," we can see two important points-of-interest. One is the email (JD@anthem.com) and the other is the actual author of the article: Jane Doe
+9. Going back to the homepage and clicking on the first article, which is called, "We are hiring," we can see two important points-of-interest. One is the email (JD@anthem.com) and the other is the actual author of the article: Jane Doe.
 
-![Website]()
+![Website](./images/anthem6.png)
+
+10. When we try clicking on Jane Doe, we get another flag (flag 3: THM{L0L_WH0_D15}):
+
+![Website](./images/anthem7.png)
