@@ -13,10 +13,13 @@ Exploit a Windows machine in this beginner level challenge
 
 ![Website](./images/anthem2.png "Anthem Website") <br>
 
-6. We can immediately check if the default `robots.txt` file exists on the webserver, by inserting `robots.txt` at the end of the link, which gives us this:
+6. We've gotten another answer for the question asking about the website's domain, which is Anthem.com. Now, we can immediately check if the default file, `robots.txt`, exists on the webserver, by inserting `robots.txt` at the end of the link, which gives us this:
 
 ![Website](./images/anthem3.png "robots.txt")
 
-7. We've actually just got our first password: `UmbracoIsTheBest!`. We can visit the /umbraco page, as it seems like a potential login page, even if we can't exploit it just yet. When we visit it, it'll give us this:
+7. We've actually just got our first password: `UmbracoIsTheBest!`. We can visit the /umbraco page, as it seems like a potential login page, even if we can't exploit it just yet. Before doing that, it'd be wise to put the password for the following question: "What is a possible password in one of the pages web crawlers check for?" Another question which we've already gotten the answer for is: "What CMS is the website using?" The CMS being used here is Umbraco, as seen on the third screenshot. Going back to the login page, when we visit it, it'll give us this:
 
 ![Website](./images/anthem4.png)
+
+8. Before anything else, we need to check the page source, just in case if there's any information we can use on there. Opening it up and scrolling down just a bit, we already found flag 2 (THM{G!T_G00D}):  
+![Website]()
