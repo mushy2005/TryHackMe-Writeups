@@ -52,3 +52,6 @@ Exploit a Windows machine in this beginner level challenge.
 
 ![RDP](./images/anthem12.png)
 
+16. Using the password we found before to log in, we finally make it into the machine.
+
+![Desktop](./images/anthem13.png)
