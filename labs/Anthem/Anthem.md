@@ -43,7 +43,7 @@ Exploit a Windows machine in this beginner level challenge.
 
 ![Website](./images/anthem8.png)
 
-13. This portion is quite clever. Since it seems like they've dedicated this poem to the admin, the admin's name could be the actual author who wrote this poem. A simple google search tells us that the poem is written by Solomon Grundy.
+13. This portion is quite clever. Since it seems like they've dedicated this poem to the admin, the admin's name could be the actual author who wrote this poem. A simple google search tells us that the poem is written by Solomon Grundy. Using this info, we actually just found the admin's email, which is SG@anthem.com
 
 ![Solomon](./images/anthem10.png)
 
@@ -55,3 +55,25 @@ Exploit a Windows machine in this beginner level challenge.
 16. Using the password we found before to log in, we finally make it into the machine.
 
 ![Desktop](./images/anthem13.png)
+
+17. Here, we can see a file called `user`, which is a text file. Opening it up and we find the flag (THM{N00T_NO0T}), which is the answer to the following question: "Gain initial access to the machine, what is the contents of user.txt?"
+
+![User.txt](./images/anthem14.png)
+
+18. In order to escalate privileges, we need to find the admin password. If we click on the hint, it tells us that there's potentially a file that's hidden from view. We can enable an option to see hidden files on the file explorer. After doing that, navigate to the searching through the files for the hidden file, and we'll eventually come across this:
+
+![Hidden file](./images/anthem15.png)
+
+19. We can't see the contents of the file as we don't have permission to do so. One work-around for this is to go into the file's properties and add ourselves in order to have full control over the file.
+
+![Permissions](./images/anthem16.png)
+
+20. After doing that and going back to the file, we can see the admin password:
+
+![Admin Password](./images/anthem17.png)
+
+21. Now, we need to find a file called `root.txt`. We can navigate to the Administrator folder in Users using the credentials we just found out, then look through the folders until eventually we find that specific file.
+
+![root.txt](./images/anthem18.png)
+
+22. That's the last flag. 
