@@ -35,14 +35,20 @@ Exploit a Windows machine in this beginner level challenge.
 
 ![Website](./images/anthem7.png)
 
-11. Going back to the homepage and clicking on the second article, which is, "A cheers to our IT department," appears to be a poem. The author for this article is James Orchard Halliwell.
+11. The third flag is found on the second article's page source (flag 4: THM{AN0TH3R_M3TA}):
+
+![Website](./images/anthem11.png)
+
+12. Going back to the homepage and clicking on the second article, which is, "A cheers to our IT department," appears to be a poem. The author for this article is James Orchard Halliwell.
 
 ![Website](./images/anthem8.png)
 
-12. This portion is quite clever. Since it seems like they've dedicated this poem to the admin, the admin's name could be the actual author who wrote this poem. A simple google search tells us that the poem is written by Solomon Grundy.
+13. This portion is quite clever. Since it seems like they've dedicated this poem to the admin, the admin's name could be the actual author who wrote this poem. A simple google search tells us that the poem is written by Solomon Grundy.
 
 ![Solomon](./images/anthem10.png)
 
-13. Now we can answer the following question: "What's the name of the Administrator?" Which is, Solomon Grundy.
-14. We can perform a directory scan using Gobuster to see what other info we can access:
+14. Now we can answer the following question: "What's the name of the Administrator?" Which is Solomon Grundy.
+15. Onto the next phase. We can log into the rdp service that's running on the machine using rdesktop:
+
+![RDP](./images/anthem12.png)
 
