@@ -1,4 +1,4 @@
-# TryHackMe Labs Writeups
+# TryHackMe Lab Writeups
 Collection of write-ups from various TryHackMe labs.
 
 # Table of Contents
